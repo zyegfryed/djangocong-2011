@@ -18,3 +18,16 @@ Go to http://127.0.0.1:8000/ and click on the "Print your ticket" link to
 download the generated PDF. Enjoy!
 
 .. _install pdftk: http://www.pdflabs.com/docs/install-pdftk/
+
+Plug'n'play
+===========
+
+Here's a `gist`_ to get you started right away into your project.
+
+.. _gist: https://gist.github.com/918403
+
+Compatibility
+=============
+
+Fully compatible with Django 1.3. I haven't tried any other versions, but
+it should work unless a big refactoring in Django template engine.

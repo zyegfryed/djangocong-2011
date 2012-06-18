@@ -23,7 +23,7 @@ class PdfTemplate(Template):
         if err:
             raise PdfTemplateError(err)
         return output
-    
+
     def fill_form(self, fields, src, pdftk_bin=None):
         if pdftk_bin is None:
             from django.conf import settings
