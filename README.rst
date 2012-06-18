@@ -1,4 +1,6 @@
-This is an example project to demonstrate how to use PDFForm within Django.
+This is an example project to demonstrate how to use PDFForm within Django `presented`_ at djangocong 2011.
+
+.. _presented: http://www.scribd.com/doc/53196142/pdfform
 
 Getting started
 ===============
@@ -31,3 +33,4 @@ Compatibility
 
 Fully compatible with Django 1.3. I haven't tried any other versions, but
 it should work unless a big refactoring in Django template engine.
+
