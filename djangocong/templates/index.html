@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Rencontres Django 2011, PDFForm example.{% endblock title %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/css3buttons.css" type="text/css" media="screen, projection">
+{% endblock extrahead %}
+
+{% block content %}
+  <hr>
+  <div class="span-24 last center">
+    <h1 class="alt">Votre inscription est terminée.</h1>
+    <p><a class="primary button" href="{% url ticket-print %}"><span class="downarrow icon"></span>Print your ticket.</a></p>
+  </div>
+  <hr>
+{% endblock content %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>{% block title %}Rencontres Django 2011, le weekend du 16-17 avril à Marseille{% endblock title %}</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]>
+      <link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/screen_002.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/style_002.css" type="text/css" media="screen, projection">
+    {% block extrahead %}{% endblock extrahead %}
+  </head>
+  <body data-feedly-processed="yes">
+    <div class="container">
+      <hr class="blank"><!-- flemme :p -->
+      <div class="span-12">
+        <img src="{{ STATIC_URL }}images/logo.png">
+      </div>
+      <div class="span-12 last">
+        <h1>Rencontres Django<br>a.k.a #djangocong</h1>
+        <h2 class="alt">L'événement annuel regroupant les amateurs francophones de Django, en toute simplicité.</h2>
+        <h3 class="alt">Le weekend du 16-17 avril 2011 à Marseille</h3>
+      </div>
+      {% block content %}{% endblock content %}
+    <div class="small center">
+      <p>
+        Événement organisé par l'association Django-fr, pour les nostalgiques, <a href="http://rencontres.django-fr.org/2010/">le site des rencontres 2010</a>.
+        Logo par <a href="http://apluggedinlife.com/fr/2011/02/22/en-attendant-les-rencontres-django-2011/">@thoas &amp; @noreljin</a>.
+      </p>
+    </div>
+  </body>
+</html>
