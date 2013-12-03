@@ -1,6 +1,6 @@
 This is an example project to demonstrate how to use PDFForm within Django `presented`_ at djangocong 2011.
 
-.. _presented: http://www.scribd.com/doc/53196142/pdfform
+.. _presented: https://speakerdeck.com/zyegfryed/django-generating-pdf-with-pdfform
 
 Getting started
 ===============
